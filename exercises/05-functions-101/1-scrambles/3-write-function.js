@@ -1,5 +1,11 @@
 function mystery(a, b) {
-
+    let resultat;
+if(b===null||b===undefined||b==false ) resultat= 'path 1';
+else if(typeof a ===typeof b) resultat='path 2';
+else{
+    resultat= 'path 3';
+}
+return resultat;
 }
 
 
